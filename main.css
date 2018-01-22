@@ -1,0 +1,156 @@
+body{
+    font-family: 'Play', sans-serif;
+    margin: 0;
+}
+
+hr{
+  margin:0px;
+  border-color: #09B3CA;
+}
+
+.blue{
+  color:#09B3CA;
+  font-weight: 600;
+}
+.backgrd{
+  margin-top: -50px;
+  background-image: url(backgrdone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:120px;
+}
+.contact {
+    margin: -10px;
+    display: flex;
+    justify-content:space-around;
+    /*margin-top: 30px;*/
+    /*flex-direction: row;
+    flex-wrap: wrap;
+    align-items:baseline;*/
+
+}
+
+.name_header{
+  font-size: 50px;
+  text-align: right;
+}
+.name_header p{
+  color: white;
+}
+.coding_content{
+  align-items: stretch;
+}
+
+.contact_container{
+  font-family: 'Play', sans-serif;
+  /*margin: 0;*/
+}
+.contact_container a{
+    text-decoration: none;
+    color: white;
+}
+.describe_container{
+  display: flex;
+  width: 100%;
+  /*background-color: gray;*/
+  justify-content: center;
+  font-weight: 400;
+  height:10vh;
+}
+
+.describe_container p{
+  font-size: 100%;
+  margin-top:0;
+  padding-top: 5px;
+  width: 70%;
+  text-align: center;
+}
+.top_two{
+  display: flex;
+}
+.qualify_container{
+  flex: 1;
+  padding: 1rem;
+  justify-content: center;
+}
+.coding_container{
+  flex: 1;
+  padding: 1rem;
+    /*justify-content: center;*/
+  align-items:flex-start;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.coding_container li{
+  list-style: none;
+}
+.bottom_two{
+  display:flex;
+  width: 100%;
+  /*background-color: gray;*/
+  justify-content:space-arounds;
+  font-weight: 400;
+}
+.Syst_container{
+
+}
+.Syst_container li{
+  list-style: none;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 10px;
+
+}
+.card {
+  flex: 0 0 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.card:hover{
+  transform: scale(1.03);
+  border-color:  #09B3CA;
+}
+.card img {
+  max-width: 100%;
+}
+.card .text {
+  padding: 0 20px 20px;
+}
+.card .text > button {
+  background: #09B3CA;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  }
+  .card .text > button a {
+    text-decoration: none;
+    color:white;
+  }
+
+ #footer {
+   position:relative;
+   text-align: center;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   /*background:#999;*/
+   opacity: 0.5;
+   font-weight: bold;
+}
+#footer a{
+text-decoration: none; 
+}
+.fa_custom {
+color:#09B3CA ;
+}
