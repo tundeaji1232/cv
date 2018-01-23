@@ -49,15 +49,16 @@ hr{
   width: 100%;
   justify-content: center;
   font-weight: 400;
-  height:10vh;
+  height:10%;
 }
 
-.describe_container p{
+.describe_container h3{
   font-size: 100%;
   margin-top:0;
   padding-top: 5px;
   width: 70%;
   text-align: center;
+  color: #09B3CA;
 }
 .top_two{
   display: flex;
@@ -89,6 +90,18 @@ hr{
 }
 .syst_container li{
   list-style: none;
+}
+.spacea{
+  margin-left: 2%;
+}
+.spaceb{
+  margin-left: 4%;
+}
+.spacec{
+  margin-left: 6%;
+}
+.spaced{
+  margin-left: 8%;
 }
 
 
