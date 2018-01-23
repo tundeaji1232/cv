@@ -23,11 +23,6 @@ hr{
     margin: -10px;
     display: flex;
     justify-content:space-around;
-    /*margin-top: 30px;*/
-    /*flex-direction: row;
-    flex-wrap: wrap;
-    align-items:baseline;*/
-
 }
 
 .name_header{
@@ -52,7 +47,6 @@ hr{
 .describe_container{
   display: flex;
   width: 100%;
-  /*background-color: gray;*/
   justify-content: center;
   font-weight: 400;
   height:10vh;
@@ -76,7 +70,6 @@ hr{
 .coding_container{
   flex: 1;
   padding: 1rem;
-    /*justify-content: center;*/
   align-items:flex-start;
   text-align: center;
   justify-content: space-between;
@@ -88,14 +81,13 @@ hr{
 .bottom_two{
   display:flex;
   width: 100%;
-  /*background-color: gray;*/
   justify-content:space-arounds;
   font-weight: 400;
 }
-.Syst_container{
+.syst_container{
 
 }
-.Syst_container li{
+.syst_container li{
   list-style: none;
 }
 
@@ -149,8 +141,11 @@ hr{
    font-weight: bold;
 }
 #footer a{
-text-decoration: none; 
+text-decoration: none;
 }
 .fa_custom {
 color:#09B3CA ;
+}
+.foot_text{
+  font-weight: bold;
 }
