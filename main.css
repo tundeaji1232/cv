@@ -82,26 +82,26 @@ hr{
 .bottom_two{
   display:flex;
   width: 100%;
-  justify-content:space-arounds;
+  justify-content:flex-start;
   font-weight: 400;
 }
 .syst_container{
 
 }
 .syst_container li{
-  list-style: none;
+  list-style:none;
 }
 .spacea{
-  margin-left: 2%;
+  margin-left: 3%;
 }
 .spaceb{
-  margin-left: 4%;
+  margin-left: 8%;
 }
 .spacec{
-  margin-left: 6%;
+  margin-left: 13%;
 }
 .spaced{
-  margin-left: 8%;
+  margin-left: 18%;
 }
 
 
